@@ -1,0 +1,15 @@
+{
+  "name": "demo-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^97.0.2",
+    "nightwatch": "^1.7.13"
+  }
+}
