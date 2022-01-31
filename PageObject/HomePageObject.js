@@ -25,22 +25,22 @@ myElements = {
 
 myCommands = [
         {
-            clickOnHomePage(input){
+            clickOnHomePageAndVerify(input){
                     if(input == "elements")
                     {
-                        return this.click('@elementHomePage');
+                        return this.click('@elementHomePage').pause(3000).assert.urlEquals('https://demoqa.com/elements');
                     }
                     else if(input == "forms")
                     {
-                        return this.click('@formHomePage');
+                        return this.click('@formHomePage').pause(3000).assert.urlEquals('https://demoqa.com/forms');
                     }
                     else if(input == "alerts")
                     {
-                        return this.click('@alertsHomePage');
+                        return this.click('@alertsHomePage').pause(3000).assert.urlEquals('https://demoqa.com/alertsWindows');
                     }
                     else if(input == "widgets")
                     {
-                        return this.click('@widgetsHomePage');
+                        return this.click('@widgetsHomePage').pause(3000).assert.urlEquals('https://demoqa.com/widgets');
                     }
                     
             }

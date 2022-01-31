@@ -31,29 +31,21 @@ module.exports = {
 "verifying redirection after clicking on Elements on home page'":(browser)=>{
             const homePage1 = browser.page.HomePageObject();
             homePage1.clickOnHomePage("elements");
-            browser.pause(3000);
-            browser.assert.urlEquals('https://demoqa.com/elements');
 },
 
 "verifying redirection after clicking on Forms on home page'":(browser)=>{
     const homePage2 = browser.page.HomePageObject();
-    homePage2.clickOnHomePage("forms");
-    browser.pause(3000);
-    browser.assert.urlEquals('https://demoqa.com/forms');
+    homePage2.clickOnHomePageAndVerify("forms");
 },
 
 "verifying redirection after clicking on Alerts, Frame & Windows on home page'":(browser)=>{
     const homePage3 = browser.page.HomePageObject();
     homePage3.clickOnHomePage("alerts");
-    browser.pause(3000);
-    browser.assert.urlEquals('https://demoqa.com/alertsWindows');
 },
 
 "verifying redirection after clicking on Widgets on home page'":(browser)=>{
     const homePage4 = browser.page.HomePageObject();
     homePage4.clickOnHomePage("widgets");
-    browser.pause(3000);
-    browser.assert.urlEquals('https://demoqa.com/widgets');
 }
 
 };
