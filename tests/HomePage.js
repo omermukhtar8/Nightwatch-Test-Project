@@ -24,7 +24,7 @@ module.exports = {
             {
             browser.assert.equal(homePageElementsActual.includes(homePageElementsExpected[i]),true,homePageElementsExpected[i]);
             }
-
+//
         })
 },
 
