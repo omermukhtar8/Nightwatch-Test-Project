@@ -2,3 +2,4 @@ Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-ref
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
+[1643805892.667][WARNING]: This version of ChromeDriver has not been tested with Chrome version 98.
