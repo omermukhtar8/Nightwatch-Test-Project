@@ -22,7 +22,7 @@ module.exports = {
             for(let i=0;i<homePageElementsExpected.length;i++)
 
             {
-            browser.assert.equal(homePageElementsActual.includes(homePageElementsExpected[i]),true,homePageElementsExpected[i]);
+            browser.assert.equal(homePageElementsActual.includes(homePageElementsExpected[i]),true,"Expected is"+homePageElementsExpected[i]);
             }
         })
 }

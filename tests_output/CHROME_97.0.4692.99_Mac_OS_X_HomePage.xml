@@ -5,9 +5,9 @@
 
   <testsuite name="HomePage"
     errors="0" failures="0" hostname="" id="" package="HomePage" skipped="0"
-    tests="5" time="68.05" timestamp="">
+    tests="5" time="63.03" timestamp="">
   
-    <testcase name="verifying elements on home page" classname="HomePage" time="13.90" assertions="7">
+    <testcase name="verifying elements on home page" classname="HomePage" time="13.29" assertions="7">
 
     
 
@@ -24,28 +24,28 @@
     
     </testcase>
   
-    <testcase name="verifying redirection after clicking on Elements on home page&#39;" classname="HomePage" time="15.92" assertions="2">
+    <testcase name="verifying redirection after clicking on Elements on home page&#39;" classname="HomePage" time="11.73" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="verifying redirection after clicking on Forms on home page&#39;" classname="HomePage" time="13.84" assertions="2">
+    <testcase name="verifying redirection after clicking on Forms on home page&#39;" classname="HomePage" time="12.66" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="verifying redirection after clicking on Alerts, Frame &amp; Windows on home page&#39;" classname="HomePage" time="12.67" assertions="2">
+    <testcase name="verifying redirection after clicking on Alerts, Frame &amp; Windows on home page&#39;" classname="HomePage" time="12.68" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="verifying redirection after clicking on Widgets on home page&#39;" classname="HomePage" time="11.73" assertions="2">
+    <testcase name="verifying redirection after clicking on Widgets on home page&#39;" classname="HomePage" time="12.67" assertions="2">
 
     
 
