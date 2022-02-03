@@ -5,13 +5,9 @@
 
   <testsuite name="HomePage"
     errors="0" failures="0" hostname="" id="" package="HomePage" skipped="0"
-    tests="1" time="14.47" timestamp="">
+    tests="1" time="17.02" timestamp="">
   
-    <testcase name="verifying new tab open when we click on home page banner&#39;" classname="HomePage" time="14.47" assertions="3">
-
-    
-
-    
+    <testcase name="verifying new tab open when we click on home page banner&#39;" classname="HomePage" time="17.02" assertions="1">
 
     
     </testcase>

@@ -54,7 +54,9 @@ module.exports = {
 
 "verifying new tab open when we click on home page banner'":(browser)=>{
     const homePage5 = browser.page.HomePageObject();
-    var result = homePage5.clickOnHomePageAndVerify("bannerHomePage");
+    //var result = homePage5.clickOnHomePageAndVerify("bannerHomePage");
+
+    var result = homePage5.alternateApproach();
 }
 
 };

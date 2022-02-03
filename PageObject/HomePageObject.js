@@ -64,8 +64,15 @@ myCommands = [
 
                     
                     
-            }
+            },
+                    async alternateApproach(){
 
+                        await this.click('@bannerHomePage');
+                        this.pause(3000);
+                        this.api.windowHandles(function(result){
+                            console.log(result.value);
+                        });
+                    }
 
         }
 ];
